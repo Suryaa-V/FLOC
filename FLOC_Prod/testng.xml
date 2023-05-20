@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<test name="NewUser_Registration">
+		<classes>
+			<class name="com.testcases.NewUserCreation" />
+		</classes>
+	</test>
+	<test name="RegisteredUser_Login">
+		<classes>
+			<class name="com.testcases.RegisteredUserTest" />
+		</classes>
+	</test>
+	<test name="Navigation_Pages">
+		<classes>
+			<class name="com.testcases.NavigatingAllPages" />
+		</classes>
+	</test>
+</suite>
+
+
